@@ -87,48 +87,6 @@
                 footerText: "Anything for the Perfect Match. Persoonlijke, betrokken en betrouwbare werving & selectie door heel Nederland.",
                 reviewHeaderTitle: "Wat klanten & medewerkers zeggen",
                 reviewHeaderSub: "Met een perfecte 5.0 score op Google Maps bouwen we elke dag met trots aan duurzame samenwerkingen."
-            },
-            en: {
-                navHome: "Home",
-                navAbout: "Who We Are",
-                navJobs: "Our Vacancies",
-                navEmployers: "For Employers",
-                navContact: "Contact",
-                heroTagline: "Personal recruitment with genuine attention",
-                heroSub: "We believe that a good job brightens your life. Janneke and Yana connect motivated candidates and reliable employers throughout the Netherlands.",
-                heroSearchPlaceholder: "What are you looking for? (e.g., Cleaning, Logistics)...",
-                heroSearchBtn: "Search",
-                btnApply: "Apply now",
-                btnSeekerHero: "I'm looking for work",
-                btnEmployerHero: "I need staff",
-                sectionTitleJobs: "Spotlight Vacancies",
-                sectionSubJobs: "Check out our current open positions and find the match that fits you best.",
-                jobHours: "hours per week",
-                viewJobDetails: "View vacancy",
-                close: "Close",
-                aboutTitle: "The Face Behind Let's Work",
-                aboutDesc1: "I am Janneke de Vries, proud founder of Let's Work International. Entrepreneurship is my passion, but truly helping people forward is my motivation. Together with recruiter Yana, I strive every day for that perfect match.",
-                aboutDesc2: "We look beyond just a resume. Motivation, enthusiasm, and a positive attitude are far more important to us than having the right diplomas. We handle everything so you can focus on your strengths.",
-                whyUsTitle: "Why Let's Work International?",
-                whyUsSub: "No empty promises, but long-term relationships based on our three powerful Ps.",
-                p1Title: "Positive (Always with a smile)",
-                p1Desc: "We think in possibilities and look at your future with a fresh perspective. For us, a match is only successful when both parties are truly happy.",
-                p2Title: "Perfect (Quality & Customization)",
-                p2Desc: "Every person and every company is unique. We take the time for an in-depth introduction and guide onboarding from A to Z for a seamless start.",
-                p3Title: "People (Dedicated to Ukrainian talents)",
-                p3Desc: "Our special focus lies in supporting international talents. We offer excellent jobs, fair wages, and active help with integration and well-being.",
-                contactTitle: "Send us a message",
-                formName: "Your Name",
-                formEmail: "Email Address",
-                formPhone: "Phone Number",
-                formSubject1: "Candidate (looking for work)",
-                formSubject2: "Employer (looking for staff)",
-                formMessage: "How can we help you?",
-                formSubmit: "Send message",
-                successSubmit: "Thank you for your message! Janneke or Yana will get back to you within 24 hours.",
-                footerText: "Anything for the Perfect Match. Personal, committed, and reliable recruitment throughout the Netherlands.",
-                reviewHeaderTitle: "What clients & employees say",
-                reviewHeaderSub: "With a perfect 5.0 rating on Google Maps, we proudly build sustainable partnerships every day."
             }
         };
 
@@ -224,11 +182,6 @@
                 </nav>
 
                 <div class="flex items-center space-x-3">
-                    <div class="flex items-center space-x-1 bg-slate-100 p-1 rounded-lg">
-                        <button onclick="setLanguage('nl')" data-lang="nl" class="lang-btn px-2.5 py-1 text-xs font-bold rounded-md smooth-transition text-white shadow-sm bg-[#A13CB8]">NL</button>
-                        <button onclick="setLanguage('en')" data-lang="en" class="lang-btn px-2.5 py-1 text-xs font-bold rounded-md smooth-transition bg-white text-slate-700">EN</button>
-                    </div>
-
                     <button onclick="navigate('contact')" class="hidden sm:inline-flex items-center justify-center px-4 py-2 text-xs font-bold text-white rounded-lg smooth-transition shadow-md bg-[#A13CB8]">
                         Kennismaken
                     </button>
@@ -266,7 +219,7 @@
                         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                             <div class="inline-flex items-center space-x-2 bg-white/10 text-purple-200 px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider border border-white/5">
                                 <span class="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
-                                <span>Echt menselijk en betrouwbaar</span>
+                                <span>24/7 beschikbaar</span>
                             </div>
                             <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight" data-i18n="heroTagline">
                                 Persoonlijke werving & selectie met échte aandacht
@@ -423,9 +376,11 @@
                 </div>
             </section>
 
-            <!-- GOOGLE REVIEWS SECTION (HOME) -->
-            <section class="py-16 sm:py-20 bg-white">
+            <!-- DETAILED GOOGLE REVIEWS SECTION -->
+            <section id="home-reviews" class="py-16 sm:py-20 bg-white">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    
+                    <!-- Sectie kop -->
                     <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
                         <div class="inline-flex items-center space-x-2 bg-slate-50 px-3 py-1.5 rounded-full border border-slate-200 shadow-sm text-xs font-bold text-slate-600">
                             <!-- Google "G" representation -->
@@ -437,6 +392,7 @@
                         <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight" data-i18n="reviewHeaderTitle">Wat klanten & medewerkers zeggen</h2>
                         <p class="text-slate-600 text-xs sm:text-base" data-i18n="reviewHeaderSub">Met een perfecte 5.0 score op Google Maps bouwen we elke dag met trots aan duurzame samenwerkingen.</p>
                         
+                        <!-- Stars overall widget with real maps link -->
                         <a href="https://www.google.com/maps/place/Let's+Work+International+BV./@52.1853083,3.8560862,8z/data=!4m10!1m2!2m1!1slet's+work+international!3m6!1s0x4c983e4a9822666b:0x24c77d28a26231c9!8m2!3d52.1909763!4d5.2795551" target="_blank" class="inline-flex items-center justify-center space-x-2 pt-2 group" title="Bekijk ons Google Bedrijfsprofiel">
                             <span class="text-2xl font-black text-slate-900">5,0</span>
                             <div class="flex items-center text-amber-400">
@@ -451,10 +407,11 @@
                         </a>
                     </div>
 
-                    <!-- Reviews Grid -->
+                    <!-- Grid met de drie echte reviews -->
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                        
                         <!-- Review 1: Astrid -->
-                        <div class="bg-slate-50 rounded-3xl p-6 border border-slate-100 shadow-sm flex flex-col justify-between hover:shadow-md smooth-transition">
+                        <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm flex flex-col justify-between hover:shadow-md smooth-transition">
                             <div class="space-y-4">
                                 <div class="flex items-center text-amber-400">
                                     <i data-lucide="star" class="w-4 h-4 fill-current"></i>
@@ -467,8 +424,10 @@
                                     "Sinds december 2024 werken wij samen met LWI en zijn daar super tevreden over. Zeer korte lijnen met Janneke. Zij staat 24/7 aan :), altijd naar een oplossing zoekt, meedenkt en heel veel tijd stopt in het screenen en voeren van gesprekken met (mogelijke) kandidaten. Zij en Yana verdienen zeker 5 sterren!!!"
                                 </p>
                             </div>
-                            <div class="flex items-center space-x-3 pt-6 mt-6 border-t border-slate-200">
-                                <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-extrabold text-sm">AT</div>
+                            <div class="flex items-center space-x-3 pt-6 mt-6 border-t border-slate-50">
+                                <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-extrabold text-sm">
+                                    AT
+                                </div>
                                 <div>
                                     <h4 class="text-xs sm:text-sm font-bold text-slate-900">Astrid Trenidad</h4>
                                     <span class="text-[10px] text-slate-400 font-medium">3 reviews • een jaar geleden</span>
@@ -477,7 +436,7 @@
                         </div>
 
                         <!-- Review 2: Marianne -->
-                        <div class="bg-slate-50 rounded-3xl p-6 border border-slate-100 shadow-sm flex flex-col justify-between hover:shadow-md smooth-transition">
+                        <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm flex flex-col justify-between hover:shadow-md smooth-transition">
                             <div class="space-y-4">
                                 <div class="flex items-center text-amber-400">
                                     <i data-lucide="star" class="w-4 h-4 fill-current"></i>
@@ -490,8 +449,10 @@
                                     "Lets Work International heeft echt hart voor de mensen (Oekraïners) die ze plaatsen en er zijn zeer korte lijnen naar ons als opdrachtgever. Wij ervaren de samenwerking met Lets Work als zeer prettig."
                                 </p>
                             </div>
-                            <div class="flex items-center space-x-3 pt-6 mt-6 border-t border-slate-200">
-                                <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-[#A13CB8] font-extrabold text-sm">MV</div>
+                            <div class="flex items-center space-x-3 pt-6 mt-6 border-t border-slate-50">
+                                <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-[#A13CB8] font-extrabold text-sm">
+                                    MV
+                                </div>
                                 <div>
                                     <h4 class="text-xs sm:text-sm font-bold text-slate-900">Marianne de Vos</h4>
                                     <span class="text-[10px] text-slate-400 font-medium">2 reviews • een jaar geleden</span>
@@ -500,7 +461,7 @@
                         </div>
 
                         <!-- Review 3: Hendrik -->
-                        <div class="bg-slate-50 rounded-3xl p-6 border border-slate-100 shadow-sm flex flex-col justify-between hover:shadow-md smooth-transition">
+                        <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm flex flex-col justify-between hover:shadow-md smooth-transition">
                             <div class="space-y-4">
                                 <div class="flex items-center text-amber-400">
                                     <i data-lucide="star" class="w-4 h-4 fill-current"></i>
@@ -514,8 +475,10 @@
                                     "Wat een top uitzendbureau! Altijd goede service, oplossingsgericht en echt altijd bereikbaar. De meiden (Janneke en Yana) doen er alles aan om zowel de klant als de werknemer tevreden te stellen. Ze denken met je mee en regelen alles snel en professioneel. Echt een fijne samenwerking, zeker een aanrader!"
                                 </p>
                             </div>
-                            <div class="flex items-center space-x-3 pt-6 mt-6 border-t border-slate-200">
-                                <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-extrabold text-sm">HO</div>
+                            <div class="flex items-center space-x-3 pt-6 mt-6 border-t border-slate-50">
+                                <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-extrabold text-sm">
+                                    HO
+                                </div>
                                 <div>
                                     <h4 class="text-xs sm:text-sm font-bold text-slate-900">Hendrik Out</h4>
                                     <span class="text-[10px] text-slate-400 font-medium">1 review • 3 weken geleden</span>
@@ -1146,9 +1109,9 @@
                 <div class="space-y-4">
                     <h4 class="text-white text-sm font-bold uppercase tracking-wider" data-i18n="footerCol2">Onze branches</h4>
                     <ul class="space-y-2 text-xs">
-                        <li><button onclick="navigate('vacancies'); filterVacancies('Schoonmaak')" class="hover:text-white text-left smooth-transition" data-i18n="sectorCleaning">Schoonmaak</button></li>
-                        <li><button onclick="navigate('vacancies'); filterVacancies('Logistiek')" class="hover:text-white text-left smooth-transition" data-i18n="sectorLogistics">Logistiek</button></li>
-                        <li><button onclick="navigate('vacancies'); filterVacancies('Productie')" class="hover:text-white text-left smooth-transition" data-i18n="sectorProduction">Productie & Techniek</button></li>
+                        <li><button onclick="navigate('vacancies'); filterVacancies('Schoonmaak')" class="hover:text-white text-left smooth-transition">Schoonmaak</button></li>
+                        <li><button onclick="navigate('vacancies'); filterVacancies('Logistiek')" class="hover:text-white text-left smooth-transition">Logistiek</button></li>
+                        <li><button onclick="navigate('vacancies'); filterVacancies('Productie')" class="hover:text-white text-left smooth-transition">Productie & Techniek</button></li>
                     </ul>
                 </div>
 
@@ -1717,11 +1680,12 @@
         // --- INITIATIE (Opstarten van de website) ---
         window.onload = function() {
             lucide.createIcons();
-            setLanguage('nl');
             
             // Lees de actieve pagina uit de link (bijv #/contact) en laad deze in
             const initialRoute = window.location.hash.replace('#/', '');
             navigate(initialRoute || 'home');
+            
+            renderVacancies();
         };
     </script>
 </body>
